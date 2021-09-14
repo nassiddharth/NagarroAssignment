@@ -5,7 +5,7 @@ Covered scenario in this framework** This project has below automated scenario:
 3) Rest-Assured Scenario for the Provied API.
 
 *********************** Necessary information ************* 
-Automation Framework created through Selenium, Appium & Rest-Assured with Java, Maven and TestNG. All the necessary information are stored in the config.properties file under Resources folder.
+Automation Framework created through Selenium, Appium & Rest-Assured with Java, Maven and TestNG. Framework developed in such a way, we can used it for both iOS and Android. All the necessary information are stored in the config.properties file under Resources folder.
 
 *How to run this project:
 1) Download or Clone the Project.
