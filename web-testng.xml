@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<listeners>
+		<listener class-name="extentreport.ExtentReporterNG" />
+		<listener class-name="retrylogic.ListenerAdapter" />
+		<listener class-name="retrylogic.RetryListener" />
+	</listeners>
+	<test thread-count="5" parallel = "methods" name="Test">
+		<classes>
+			<class name="web.test.JqueryDroppableFunctionalityTest" />
+			<class name="web.test.JquerySelectableFunctionalityTest" />
+			<class name="web.test.JqueryControlGroupFunctionalityTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
